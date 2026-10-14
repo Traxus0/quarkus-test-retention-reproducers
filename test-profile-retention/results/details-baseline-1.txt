@@ -1,0 +1,7 @@
+listener loaded by jdk.internal.loader.ClassLoaders$AppClassLoader@1affbebc
+variant devservices=false info=false heap=1g
+
+== after P01Test (1 classes) ==
+loaders by kind {}
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest) restart no:0@5dc3fcb7 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@7bc10d84

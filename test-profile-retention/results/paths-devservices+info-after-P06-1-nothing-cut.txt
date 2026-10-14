@@ -1,0 +1,91 @@
+HeapPaths over a live heap dump taken after P06Test of 12 (devservices=true info=true), loaders matching 'Deployment'. Arguments: 
+
+objects 5,368,916, classes 117,798, roots 5,730
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)
+    ROOT system class
+    class java.lang.ApplicationShutdownHooks
+    --static hooks--> java.util.IdentityHashMap
+    --table--> [Ljava.lang.Object;
+    --[54]--> java.lang.Thread "Thread-681"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)
+    ROOT system class
+    class java.lang.ApplicationShutdownHooks
+    --static hooks--> java.util.IdentityHashMap
+    --table--> [Ljava.lang.Object;
+    --[62]--> java.lang.Thread "Thread-749"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)
+    ROOT system class
+    class java.lang.ApplicationShutdownHooks
+    --static hooks--> java.util.IdentityHashMap
+    --table--> [Ljava.lang.Object;
+    --[56]--> java.lang.Thread "Thread-477"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)
+    ROOT system class
+    class java.lang.ApplicationShutdownHooks
+    --static hooks--> java.util.IdentityHashMap
+    --table--> [Ljava.lang.Object;
+    --[50]--> java.lang.Thread "Thread-613"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "testcontainers-ryuk"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "testcontainers-ryuk"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)
+    ROOT system class
+    class java.lang.ApplicationShutdownHooks
+    --static hooks--> java.util.IdentityHashMap
+    --table--> [Ljava.lang.Object;
+    --[8]--> java.lang.Thread "Thread-545"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)
+    ROOT system class
+    class java.lang.ApplicationShutdownHooks
+    --static hooks--> java.util.IdentityHashMap
+    --table--> [Ljava.lang.Object;
+    --[46]--> java.lang.Thread "Thread-817"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "testcontainers-ryuk"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "testcontainers-ryuk"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "testcontainers-ryuk"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "testcontainers-ryuk"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)"
+
+QuarkusClassLoaders matched 12, strongly reachable 12
+paths grouped by root and first hops:
+   6  ROOT system class | class java.lang.ApplicationShutdownHooks | --static hooks--> java.util.IdentityHashMap | --table--> [Ljava.lang.Object;
+   1  ROOT thread object | java.lang.Thread "testcontainers-ryuk" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)"
+   1  ROOT thread object | java.lang.Thread "testcontainers-ryuk" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)"
+   1  ROOT thread object | java.lang.Thread "testcontainers-ryuk" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)"
+   1  ROOT thread object | java.lang.Thread "testcontainers-ryuk" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)"
+   1  ROOT thread object | java.lang.Thread "testcontainers-ryuk" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)"
+   1  ROOT thread object | java.lang.Thread "testcontainers-ryuk" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)"

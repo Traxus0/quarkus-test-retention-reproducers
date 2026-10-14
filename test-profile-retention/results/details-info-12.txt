@@ -1,0 +1,362 @@
+listener loaded by jdk.internal.loader.ClassLoaders$AppClassLoader@1affbebc
+variant devservices=false info=true heap=1g
+
+== after P01Test (1 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest) restart no:0@58a63629 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@2a39fe6a
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-792 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest) restart no:0@58a63629 task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000020c33b28 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@2a39fe6a
+
+== after P02Test (2 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest) restart no:0@6d2a2560 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@55e3d6c3
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-794 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest) restart no:0@6d2a2560 task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000020e26228 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@55e3d6c3
+
+== after P03Test (3 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest) restart no:0@e62319f task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@bfec2f9
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-796 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest) restart no:0@e62319f task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000020fa7d98 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@bfec2f9
+
+== after P04Test (4 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest) restart no:0@2dc21583 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@3f6cce7f
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-798 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest) restart no:0@2dc21583 task=io.vertx.core.file.impl.FileCache$$Lambda/0x000000002112aaa8 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@3f6cce7f
+
+== after P05Test (5 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest) restart no:0@2567c091 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@1aed6f0b
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-800 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest) restart no:0@2567c091 task=io.vertx.core.file.impl.FileCache$$Lambda/0x00000000212aa318 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@1aed6f0b
+
+== after P06Test (6 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest) restart no:0@217c6a1e task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@924f3f1
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-802 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest) restart no:0@217c6a1e task=io.vertx.core.file.impl.FileCache$$Lambda/0x000000002142a318 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@924f3f1
+
+== after P07Test (7 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest) restart no:0@5b2fc2c0 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@14ba7f15
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-804 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest) restart no:0@5b2fc2c0 task=io.vertx.core.file.impl.FileCache$$Lambda/0x00000000215aaaa8 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@14ba7f15
+
+== after P08Test (8 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest) restart no:0@4df8443f task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@156f0281
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-806 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest) restart no:0@4df8443f task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000021729410 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@156f0281
+
+== after P09Test (9 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest) restart no:0@4ed94e6a task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5af8ef61
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-808 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest) restart no:0@4ed94e6a task=io.vertx.core.file.impl.FileCache$$Lambda/0x00000000218a9ee0 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5af8ef61
+
+== after P10Test (10 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest) restart no:0@7b491b89 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@27c9500c
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-810 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest) restart no:0@7b491b89 task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000021a2b028 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@27c9500c
+
+== after P11Test (11 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest) restart no:0@35b97c69 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@6affbed1
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-812 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest) restart no:0@35b97c69 task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000021ba9ee0 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@6affbed1
+
+== after P12Test (12 classes) ==
+loaders by kind {}
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  thread JGit-WorkQueue ctx=bootstrap
+  hook Logging-Cleaner class=java.util.logging.LogManager$Cleaner loader=bootstrap ctx=bootstrap task=-
+  hook Quarkus Test Cleanup Shutdown task class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest) restart no:0@68fbad62 task=io.quarkus.test.junit.QuarkusTestExtensionState$1 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@20de9df
+  hook Thread-137 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@3e84111a task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e82e588 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)@30e6a763
+  hook Thread-187 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@38b3f208 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eb4c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)@708eb310
+  hook Thread-255 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@7739aac4 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001eeb7880 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)@2725ca05
+  hook Thread-323 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@4fa91d5b task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f2133a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)@3b3546a3
+  hook Thread-391 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@4e3ee457 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f563948 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)@19e2db7c
+  hook Thread-459 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@34d5eac task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001f8aa238 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)@55cb3b7
+  hook Thread-527 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@2fbd47b7 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001fbfe7a8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)@1e041848
+  hook Thread-595 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@6aff157e task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001ff53b58 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)@5620470a
+  hook Thread-663 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@6db99c79 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000202a8ef8 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)@4eb43d2f
+  hook Thread-69 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@3954d008 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000001e40c000 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)@9635fa
+  hook Thread-721 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@693afcd1 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x00000000205f2d10 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)@2cf93603
+  hook Thread-789 class=java.lang.Thread loader=bootstrap ctx=Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@7aeb7bd6 task=org.eclipse.jgit.internal.util.CleanupService$$Lambda/0x000000002093c028 loader=Augmentation Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@57bebe03
+  hook Thread-814 class=java.lang.Thread loader=bootstrap ctx=Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest) restart no:0@68fbad62 task=io.vertx.core.file.impl.FileCache$$Lambda/0x0000000021d31410 loader=Quarkus Base Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)@20de9df

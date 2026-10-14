@@ -1,0 +1,8 @@
+./gradlew -p temporal-annotation-default quarkusBuild -Pcase=activity
+
+[error]: Build step io.quarkiverse.temporal.deployment.TemporalProcessor#produceActivities threw an exception: java.lang.NullPointerException: Cannot invoke "org.jboss.jandex.AnnotationValue.asStringArray()" because the return value of "org.jboss.jandex.AnnotationInstance.value(String)" is null
+    at io.quarkiverse.temporal.deployment.TemporalProcessor.lambda$extractWorkersFromAnnotationAndExplicitBinding$8(TemporalProcessor.java:378)
+    at io.quarkiverse.temporal.deployment.TemporalProcessor.extractWorkersFromAnnotationAndExplicitBinding(TemporalProcessor.java:381)
+    at io.quarkiverse.temporal.deployment.TemporalProcessor.produceActivities(TemporalProcessor.java:329)
+
+BUILD FAILED

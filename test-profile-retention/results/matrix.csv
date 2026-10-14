@@ -1,0 +1,21 @@
+variant,classes,profiles,first_heap_kb,last_heap_kb,last_loaders,ryuk_threads,jgit_threads,shutdown_hooks,seconds
+baseline,1,1,31931,31931,4,0,0,2,6
+baseline,3,3,43213,43693,12,0,0,2,6
+baseline,6,6,60285,62982,24,0,0,2,11
+baseline,12,12,94061,101139,48,0,0,2,21
+baseline shared-profile control,12,1,32198,31273,4,0,0,2,11
+devservices,1,1,48299,48299,4,1,0,2,10
+devservices,3,3,69280,75009,12,3,0,2,22
+devservices,6,6,100120,115935,24,6,0,2,36
+devservices,12,12,161786,198070,48,12,0,2,72
+devservices shared-profile control,12,1,48561,47565,4,1,0,2,14
+info,1,1,44397,44397,4,0,1,4,7
+info,3,3,65058,69981,12,0,3,6,9
+info,6,6,96118,109736,24,0,6,9,15
+info,12,12,157206,189278,48,0,12,15,28
+info shared-profile control,12,1,44543,43606,4,0,1,4,12
+devservices+info,1,1,60156,60156,4,1,1,4,11
+devservices+info,3,3,89414,99516,12,3,3,6,21
+devservices+info,6,6,133438,159701,24,6,6,9,38
+devservices+info,12,12,219572,280244,48,12,12,15,79
+devservices+info shared-profile control,12,1,60180,59259,4,1,1,4,15

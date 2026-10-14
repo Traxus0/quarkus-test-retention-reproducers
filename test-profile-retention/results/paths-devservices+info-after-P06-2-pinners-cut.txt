@@ -1,0 +1,125 @@
+HeapPaths over a live heap dump taken after P06Test of 12 (devservices=true info=true), loaders matching 'Deployment'. Arguments: --cut-thread testcontainers --cut-thread ducttape --cut-thread JGit --cut-field java.lang.ApplicationShutdownHooks#hooks
+
+objects 5,368,916, classes 117,798, roots 5,730
+threads cut: 36
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[19]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P10Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[21]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P11Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[13]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P07Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[17]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P09Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)
+    ROOT thread object
+    java.lang.Thread "Quarkus hang detection timer thread"
+    --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[5]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P03Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[15]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P08Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[23]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P12Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[3]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P02Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[7]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P04Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer
+    --junitClassLoader--> io.quarkus.test.junit.classloading.FacadeClassLoader
+    --keyMakerClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest)"
+
+Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)
+    ROOT Java frame of thread "Test worker"
+    org.junit.platform.launcher.core.DefaultDiscoveryRequest
+    --selectors--> java.util.ImmutableCollections$ListN
+    --elements--> [Ljava.lang.Object;
+    --[9]--> org.junit.platform.engine.discovery.ClassSelector
+    --classLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest) restart no:0"
+    --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl
+    --deploymentClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Deployment Class Loader: TEST for JUnitQuarkusTest-repro.distinct.P05Test$Profile (QuarkusTest)"
+
+QuarkusClassLoaders matched 12, strongly reachable 12
+paths grouped by root and first hops:
+   1  ROOT Java frame of thread "Test worker" | org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestDefinitionProcessor$CollectThenExecuteTestDefinitionConsumer | --junitClassLoader--> io.quarkus.test.junit.classloading.FacadeClassLoader | --keyMakerClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P01Test$Profile (QuarkusTest) restart no:0"
+  10  ROOT Java frame of thread "Test worker" | org.junit.platform.launcher.core.DefaultDiscoveryRequest | --selectors--> java.util.ImmutableCollections$ListN | --elements--> [Ljava.lang.Object;
+   1  ROOT thread object | java.lang.Thread "Quarkus hang detection timer thread" | --contextClassLoader--> io.quarkus.bootstrap.classloading.QuarkusClassLoader "Quarkus Runtime ClassLoader: TEST for JUnitQuarkusTest-repro.distinct.P06Test$Profile (QuarkusTest) restart no:0" | --startupAction--> io.quarkus.runner.bootstrap.StartupActionImpl

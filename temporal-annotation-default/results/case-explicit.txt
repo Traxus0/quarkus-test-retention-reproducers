@@ -1,0 +1,3 @@
+./gradlew -p temporal-annotation-default quarkusBuild -Pcase=explicit
+
+BUILD SUCCESSFUL
